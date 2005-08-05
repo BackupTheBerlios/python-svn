@@ -10,7 +10,6 @@ setup(name          = INFO['title'],
       author_email  = INFO['author_email'],
       url           = INFO['url'],
       packages      = ['_spe'],
-      scripts       = INFO['scripts'],
       license       = INFO['license'],
      )
 
