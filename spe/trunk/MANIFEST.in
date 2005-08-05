@@ -1,0 +1,2 @@
+graft _spe
+global-exclude .svn/* *.pyc *.bak *.db *.pyo
