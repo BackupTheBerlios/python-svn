@@ -5,9 +5,7 @@ Beta-release. Use at your own risk.
 Installation:
 1) If you used SPE before, remove any '_spe' and 'sm' folders from your python site-packages directory.
 
-2) Type the following at the command prompt:
-
->>>python setup.py install
+2) Copy the '_spe' folder to your python lib/site-packages directory.
 
 Please use the berlios site for bug reports, patches, forums, etc...
 
