@@ -2,8 +2,6 @@ README.txt
 setup.py
 _spe\Child.py
 _spe\Child.wxg
-_spe\Child2.py
-_spe\MANIFEST.in
 _spe\Menu.py
 _spe\Menu.wxg
 _spe\MenuEditor.wxg
@@ -661,8 +659,6 @@ _spe\sm\wxp\__init__.py
 _spe\sm\wxp\pyCrustApp.py
 _spe\sm\wxp\realtime.py
 _spe\sm\wxp\smdi.py
-_spe\sm\wxp\smdi2.py
-_spe\sm\wxp\smdi_OLD.py
 _spe\sm\wxp\stc.py
 _spe\tabs\Blender.py
 _spe\tabs\Blender.wxg
