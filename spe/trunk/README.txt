@@ -1,4 +1,4 @@
-SPE 0.7.4
+SPE 0.7.5
 
 Beta-release. Use at your own risk.
 

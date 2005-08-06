@@ -7,6 +7,7 @@ _spe\Menu.wxg
 _spe\MenuEditor.wxg
 _spe\Parent.py
 _spe\Parent_notes.txt
+_spe\RunME_TestScript.bpl
 _spe\SPE.py
 _spe\SPE.pyw
 _spe\SPE_notes.txt
@@ -22,6 +23,7 @@ _spe\spe.blend
 _spe\spe.blend.py
 _spe\spe_blender.py
 _spe\spe_changes.txt
+_spe\winpdb_settings.txt
 _spe\wxgChild.py
 _spe\wxgMenu.py
 _spe\dialogs\__init__.py
@@ -188,6 +190,15 @@ _spe\plugins\pychecker2\main.py
 _spe\plugins\pychecker2\symbols.py
 _spe\plugins\pychecker2\test.py
 _spe\plugins\pychecker2\util.py
+_spe\plugins\winpdb\PKG-INFO
+_spe\plugins\winpdb\__init__.py
+_spe\plugins\winpdb\_rpdb2.py
+_spe\plugins\winpdb\_winpdb.py
+_spe\plugins\winpdb\rpdb2.py
+_spe\plugins\winpdb\setu.bpl
+_spe\plugins\winpdb\setup.py
+_spe\plugins\winpdb\winpdb.py
+_spe\plugins\winpdb\winpdb_settings.txt
 _spe\plugins\wxGlade\.cvsignore
 _spe\plugins\wxGlade\CHANGES.txt
 _spe\plugins\wxGlade\Makefile
@@ -658,8 +669,10 @@ _spe\sm\uml.py
 _spe\sm\wxp\__init__.py
 _spe\sm\wxp\pyCrustApp.py
 _spe\sm\wxp\realtime.py
+_spe\sm\wxp\smdi.bpl
 _spe\sm\wxp\smdi.py
 _spe\sm\wxp\stc.py
+_spe\sm\wxp\winpdb_settings.txt
 _spe\tabs\Blender.py
 _spe\tabs\Blender.wxg
 _spe\tabs\Browser.py
