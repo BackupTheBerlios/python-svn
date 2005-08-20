@@ -196,6 +196,7 @@ class Insert(_Entity):
     def __init__(self,name,point=(0,0,0),
                  xscale=None,yscale=None,zscale=None,
                  cols=None,colspacing=None,rows=None,rowspacing=None,
+                 rotation=None,
                  **common):
         _Entity.__init__(self,**common)
         self.name=name
@@ -207,6 +208,7 @@ class Insert(_Entity):
         self.colspacing=colspacing
         self.rows=rows
         self.rowspacing=rowspacing
+        self.rotation=rotation
         
     def __str__(self):
         result='0\nINSERT\n2\n%s\n%s\n%s'%\
@@ -214,6 +216,7 @@ class Insert(_Entity):
         if self.xscale!=None:result+='\n41\n%s'%self.xscale
         if self.yscale!=None:result+='\n42\n%s'%self.yscale
         if self.zscale!=None:result+='\n43\n%s'%self.zscale
+        if self.rotation:result+='\n50\n%s'%self.rotation
         if self.cols!=None:result+='\n70\n%s'%self.cols
         if self.colspacing!=None:result+='\n44\n%s'%self.colspacing
         if self.rows!=None:result+='\n71\n%s'%self.rows
