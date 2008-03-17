@@ -10,7 +10,6 @@ setup(name          = "spe",
       scripts       = ['_spe/spe'],
       packages      = ['_spe', '_spe.dialogs', '_spe.examples', '_spe.plugins', '_spe.shortcuts', '_spe.sidebar',
                        '_spe.skins', '_spe.sm', '_spe.tabs', '_spe.view', '_spe.skins.default', '_spe.sm.wxp'],
-      package_data  = {'': ['_spe/defaults.cfg', '_spe/doc/donate.html', '_spe/doc/about.htm', 
-                       '_spe/skins/default/*', '_spe/images/*']}
+      package_data  = {'_spe': ['defaults.cfg', 'doc/donate.html', 'doc/about.htm', 'skins/default/*', 'images/*']}
 )
 
