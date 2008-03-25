@@ -1,6 +1,19 @@
 These are the changes of the public releases:
 Spe 0.8
 -------
+    [4.e]
+        New features:
+        
+            * SPE blender server: interact in realtime with Blender through PyCrust or Ipython shell
+            
+	Major bugfix release:
+	    * Comment and Uncomment keyboard shortcuts fixed for Mac 
+	    * Finding in Folded Items Fixed (closes Berlios #10688)
+	    * Launching Kiki when installed on the system
+	    * Index tab in sidebar (closes launchpad #204751)
+	    * pychecker integration
+	    * XRCed integration
+	    
     [4.d]
 	Major bugfix release:
 	    * Rewrite of internal code to fix cpu leak when SPE is not in focus
