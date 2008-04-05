@@ -1,6 +1,19 @@
 These are the changes of the public releases:
 Spe 0.8
 -------
+    [4.f]
+        Fixes:
+            * SPE.py crashed with IndexError in OnProcessEnded()
+            * can't turn off remember files
+            * Class Definition below an if statement
+            * Deleted files are not seen as changed
+            * spaces in filenames... gronk!
+            * Unnecessary question on closing empty file
+            * Recent filename in the titlebar after closing all files
+            * SPE.py crashed with IndexError in onFrameTab() (Closes LP #200439)
+            * SPE.py crashed with PyDeadObjectError in __getattr__() (Closes LP #202481)
+            * SPE.py crashed with ValueError in SetPageText() (Closes LP #207024)
+            * Fix copy in output window
     [4.e]
         New features:
         
