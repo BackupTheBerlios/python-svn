@@ -1,6 +1,9 @@
 These are the changes of the public releases:
 Spe 0.8
 -------
+    [4.g]
+        Fixes:
+            * XRCed is now optional
     [4.f]
         Fixes:
             * SPE.py crashed with IndexError in OnProcessEnded()
