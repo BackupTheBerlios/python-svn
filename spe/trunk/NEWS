@@ -4,8 +4,12 @@ Spe 0.8
     [4.g]
         Fixes:
             * fix "browse folder"
-            * XRCed is now optional
             * fix wxglade on fedora
+            * fix warning when a file has been deleted
+    [4.h]
+        Fixes:
+            * XRCed is now optional
+            * file permissions and mixed line endings
     [4.f]
         Fixes:
             * SPE.py crashed with IndexError in OnProcessEnded()
