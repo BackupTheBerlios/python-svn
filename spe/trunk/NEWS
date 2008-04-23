@@ -3,7 +3,9 @@ Spe 0.8
 -------
     [4.g]
         Fixes:
+            * fix "browse folder"
             * XRCed is now optional
+            * fix wxglade on fedora
     [4.f]
         Fixes:
             * SPE.py crashed with IndexError in OnProcessEnded()
